@@ -1,7 +1,7 @@
 class Pirate
   attr_reader :name, :weight, :height
 
-  PIRATES = [] 
+  PIRATES = []
 
   def initialize(name, weight, height)
     @name = name
@@ -11,5 +11,5 @@ class Pirate
     PIRATES << self
   end
 
-  
+
 end
